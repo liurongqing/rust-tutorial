@@ -3,9 +3,12 @@
 官网：https://www.rust-lang.org/zh-CN/tools/install
 
 
-环境：
+### 环境：
+
 macOS
 
+
+### 开始
 1. 安装
 
     ```shell
@@ -32,6 +35,10 @@ macOS
     ```
 
 
+### 常用
 
+```shell
+cargo doc # 生产文档 
+```
 
 
