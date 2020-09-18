@@ -1,9 +1,16 @@
 fn main() {
-    // let a = 123;
-    // let a: str = "1231";
-    // let a = 123;
-    let a = 5;
-    let a = a + 2;
-    let a = a + 3;
-    print!("a is {0} , a is {0}", a);
+    print!("a is {0} , a is {0}", add(2, 3));
+}
+
+/// adds one to the number given
+/// 
+/// # Examples
+/// 
+/// ```
+/// let x = add(1, 2)
+/// 
+/// ```
+
+fn add(a: i32, b: i32) -> i32 {
+    return a + b;
 }
